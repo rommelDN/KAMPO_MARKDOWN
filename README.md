@@ -1,0 +1,1 @@
+# KAMPO_MARKDOWN
