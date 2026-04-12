@@ -170,6 +170,39 @@ La mayoría de agricultores peruanos apun gestionan sus cultivos y finanzas de f
 
 #### 1.2. Solution Profile
 ##### 1.2.1. Antecedentes y problemática
+
+###### Antecedentes
+La agricultura peruana representa el 4.6% del PBI nacional y es uno de los pilares históricos de la economía del país (BCRP, 2024). En la última década, las exportaciones agrícolas crecieron de US$4,400 millones en 2013 a US$10,500 millones en 2023, evidenciando el enorme potencial del sector (MIDAGRI, 2024). Sin embargo, este crecimiento ha sido desigual: mientras las grandes empresas agroexportadoras adoptan tecnología de precisión, sensores y análisis de datos, el agricultor pequeño y mediano sigue gestionando su campo y sus finanzas de forma manual, con cuadernos o herramientas genéricas como hojas de cálculo.
+
+Según el MIDAGRI, el 85% de los agricultores peruanos trabaja en parcelas de menos de 10 hectáreas, predominando unidades productivas de entre 3 y 10 ha. Este segmento mayoritario enfrenta una profunda brecha tecnológica: según la Encuesta Nacional Agropecuaria del INEI (2022), solo el 7% de los pequeños y medianos productores utiliza sistemas de riego tecnificado, frente al 53% entre los grandes productores. A nivel nacional, apenas el 20% de la superficie agrícola cuenta con riego tecnificado (Business Empresarial, 2024).
+
+La transformación digital del agro es reconocida como una necesidad urgente. La CEPAL señala que para que la agricultura digital sea una realidad en América Latina se requiere conectividad, acceso a tecnología a costos accesibles y alfabetización digital. Aun así, el acceso, la capacitación y la conectividad digital siguen siendo retos clave para la adopción masiva por parte de pequeños y medianos productores (ADAMA, 2025).
+
+---
+
+###### Problematica
+
+**¿Quién?** Pequeños y medianos agricultores peruanos, que representan el 85% del total de productores del país, con parcelas de entre 3 y 50 hectáreas. Se ubican en las tres regiones naturales del Perú: costa, sierra y selva, y gestionan cultivos de consumo interno y exportación. En la sierra, el 63.6% son pequeños productores que trabajan con tierras de menor extensión (EY, 2025).
+
+**¿Qué?** Los agricultores no cuentan con herramientas digitales accesibles para gestionar dos aspectos fundamentales de su actividad: el monitoreo de sus cultivos (condiciones del suelo, riego, etapas del ciclo productivo) y el control de su rentabilidad (costos, ingresos, análisis por cultivo). Esta doble carencia les impide tomar decisiones informadas tanto sobre el campo como sobre su negocio, generando pérdidas evitables por mala gestión del riego, uso ineficiente de insumos y desconocimiento real de si su actividad es o no rentable.
+
+**¿Dónde?** En todo el territorio peruano, con especial impacto en zonas rurales con limitado acceso a servicios de asesoría técnica y financiera. La costa, responsable del 68% de la producción agrícola nacional, dispone de menos del 2% del agua total del país (BCRP, 2024), lo que hace crítica la gestión inteligente del riego. La sierra, con mayor concentración de pequeños agricultores, enfrenta además barreras de conectividad y baja adopción tecnológica.
+
+**¿Cuándo?** El problema es estructural y viene agravándose en los últimos años por el impacto del cambio climático (lluvias erráticas, retroceso glaciar), el alza de costos de insumos agrícolas y la creciente exigencia de los mercados. La urgencia se intensifica en cada campaña agrícola, cuando el agricultor debe tomar decisiones críticas de inversión sin datos confiables.
+
+**¿Por qué?** Las soluciones tecnológicas existentes en el mercado están diseñadas para grandes empresas agroindustriales, con precios y complejidad fuera del alcance del agricultor promedio. No existe una plataforma integral, accesible y en español que combine monitoreo de cultivos con gestión de rentabilidad, adaptada a la realidad del pequeño y mediano productor peruano. La brecha tecnológica entre el gran agroexportador y el agricultor familiar sigue siendo una barrera estructural no resuelta.
+
+**¿Cómo?** La problemática se manifiesta de forma concreta en tres patrones recurrentes:
+- El agricultor riega por intuición o experiencia, sin datos de humedad del suelo, generando desperdicio hídrico o estrés hídrico en el cultivo. Hasta el 45% del agua se pierde por canales en mal estado o mala gestión (ANA, 2023). 
+- El agricultor no lleva un registro ordenado de sus costos e ingresos por campaña, por lo que no puede determinar con precisión si su cultivo fue rentable ni en qué rubros puede optimizar. 
+- Al no tener alertas ni seguimiento del ciclo del cultivo, reacciona tarde ante plagas, enfermedades o condiciones climáticas adversas, incrementando pérdidas evitables.
+
+**¿Cuánto?** La brecha en infraestructura agrícola en el Perú es de US$37,000 millones según el Banco Mundial (EY, 2025). El mercado global de agricultura inteligente pasará de US$12,400 millones en 2020 a US$34,100 millones en 2026 (CEPLAN). En Perú, solo el 7% de los pequeños y medianos productores usa tecnología de riego avanzada, lo que representa una oportunidad de mercado masiva aún sin atender con soluciones digitales accesibles y localizadas.
+
+---
+
+El pequeño y mediano agricultor peruano opera con información insuficiente, toma decisiones por experiencia empírica y no dispone de herramientas que le permitan monitorear su cultivo y conocer la rentabilidad real de su negocio. KAMPO surge como respuesta directa a esta doble necesidad: una plataforma SaaS integral, accesible y diseñada para el contexto peruano, que traduce datos en decisiones y convierte el campo en un negocio gestionable.
+
 ##### 1.2.2. Lean UX Process
 ###### 1.2.2.1. Lean UX Problem Statements
 ###### 1.2.2.2. Lean UX Assumptions
