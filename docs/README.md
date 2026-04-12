@@ -25,9 +25,9 @@
 ### Relación de Integrantes
 
 U202517474 | Hurtado Balcazar, Rommel Daniel.
-[Codigo de Alumno] | [Apellidos, Nombres].
-[Codigo de Alumno] | [Apellidos, Nombres].
-[Codigo de Alumno] | [Apellidos, Nombres].
+U202018427 | Ramos Fuentes Rivera, Adriana Nicole.
+U20251I477 | Tuesta Girón, Kiara Lucia.
+U202311469 | Arroyo Gonzales, Emily Juliette.
 [Codigo de Alumno] | [Apellidos, Nombres].
 
 **Marzo, 2026**
@@ -159,7 +159,15 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### Capítulo I: Introducción
 #### 1.1. Startup Profile
 ##### 1.1.1. Descripción de la Startup
+
+**GreenSopt** es una starup de tecnología agrícola fundado por estudiantes universitarios peruanos, con la misión de digitalizar la gestión del campo para pequeños y medianos agricultores del Perú. Nuestro producto principal, **KAMPO**, es una plataforma SaaS que combina el monitoreo de cultivos y control de rentabilidad en una sola herramienta accesible y diseñada para el contexto local.
+La mayoría de agricultores peruanos apun gestionan sus cultivos y finanzas de forma manual, sin acceso a herramientas digitales especializadas. KAMPO busca cerrar esa brecha ofreciendo tres planes adaptados a distintos niveles de adopción tecnología:
+**Semilla** ( gestión básica ), **Cosecha** ( integración IoT y reportes ) y **Hacienda** ( Inteligencia Artificial y gestión multi-parcela ).
+
 ##### 1.1.2. Perfiles de integrantes del equipo
+
+<!-- Remplaza con tu foto: ![Foto](ruta/a/tu/foto.jpg) -->
+
 #### 1.2. Solution Profile
 ##### 1.2.1. Antecedentes y problemática
 ##### 1.2.2. Lean UX Process
