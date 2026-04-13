@@ -261,9 +261,77 @@ en tiempo real y tome mejores decisiones de inversión, además de tener una ayu
 los usuarios activos logren completar el flujo financiero total de su cosecha dentro de la aplicación.
 
 ###### 1.2.2.4. Lean UX Canvas
-#### 1.3. Segmentos objetivo
+
+El Lean UX Canvas de KAMPO sintetiza los ocho bloques del proceso: el problema
+de negocio central (falta de herramientas digitales accesibles para el agricultor
+peruano), los resultados esperados para el negocio y el usuario, los segmentos
+objetivo, las ideas de solución, las hipótesis a validar, y el mínimo esfuerzo
+necesario para aprender antes de construir. El canvas completo se presenta en
+la figura adjunta.
+
+![LeanUXCanvas(V2)](/docs/LeanUXCanvas(V2).png)
+
 
 ---
+
+#### 1.3. Segmentos objetivo
+
+
+KAMPO identifica dos segmentos objetivo con características, necesidades y
+niveles de adopción tecnológica distintos.
+
+---
+
+**Segmento 1: Ingenieros agrónomos asesores y supervisores de cultivos**
+
+Profesionales del agro que asesoran o supervisan activamente el estado de
+cultivos en uno o varios fundos, ya sea de forma independiente o contratados
+por empresas agrícolas. Constituyen un segmento estratégico porque son el
+puente natural entre la tecnología y el agricultor: comprenden el lenguaje
+técnico del campo, tienen capacidad de evaluar herramientas digitales y, al
+mismo tiempo, influyen directamente en las decisiones de los propietarios
+o administradores de los fundos que atienden.
+
+Demográficamente, son profesionales de entre 25 y 45 años con formación
+técnica o universitaria en agronomía, ciencias agrícolas o afines. Poseen
+alta familiaridad con dispositivos digitales y suelen atender entre 3 y 15
+fundos de forma simultánea, lo que hace que su principal dolor sea la falta
+de una plataforma centralizada para registrar, dar seguimiento y compartir
+sus recomendaciones técnicas con cada cliente.
+
+Las funciones que más valoran son el historial de cultivos por parcela,
+las alertas automáticas por condición del suelo o clima, y los reportes
+exportables para compartir con los propietarios del fundo.
+---
+
+**Segmento 2: Agroindustria mediana y grande**
+
+Empresas agroindustriales, cooperativas o sociedades comerciales que
+procesan, acopian o comercializan producción agrícola a escala media o
+grande, operando con múltiples fundos proveedores de forma simultánea.
+Este segmento se caracteriza por tener estructuras de gestión formalizadas,
+presencia en varias regiones del país y exigencias crecientes de sus
+mercados destino —tanto nacionales como de exportación— en cuanto a
+trazabilidad, inocuidad y estándares de producción.
+
+Demográficamente, sus tomadores de decisión son gerentes agrícolas,
+jefes de campo o administradores de entre 30 y 55 años, con experiencia
+en gestión de operaciones y familiaridad con herramientas empresariales.
+
+El tamaño de sus operaciones varía desde medianas empresas que gestionan
+entre 50 y 500 hectáreas propias o de terceros, hasta grandes corporaciones
+con miles de hectáreas distribuidas en distintas regiones del país.
+
+Su dolor principal es la falta de visibilidad en tiempo real sobre el
+estado del campo de sus proveedores o unidades productivas: no saben con
+certeza cuándo se sembrará, cómo está evolucionando el cultivo ni cuándo
+y en qué volumen llegará la cosecha.
+
+Las exportaciones agrícolas peruanas alcanzaron los US$10,500 millones en
+2023 (MIDAGRI, 2024), y la presión por cumplir estándares de calidad
+internacionales hace que la trazabilidad desde el campo sea cada vez más
+un requisito competitivo y no solo una ventaja.
+
 
 ## Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
