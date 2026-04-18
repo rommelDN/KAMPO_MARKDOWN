@@ -269,7 +269,7 @@ objetivo, las ideas de solución, las hipótesis a validar, y el mínimo esfuerz
 necesario para aprender antes de construir. El canvas completo se presenta en
 la figura adjunta.
 
-![LeanUXCanvas(V2)](/docs/LeanUXCanvas(V2).png)
+![LeanUXCanvas(V2)](/docs/assets/img/LeanUXCanvas(V2).png)
 
 
 ---
@@ -368,24 +368,24 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
         KAMPO
         <br>
         <div style="text-align: center; margin-top: 10px;">
-                <img src="logo1.png" alt="logo 1" style="width: 65;"></img>
+                <img src="assets/img/logo_kampo.png" alt="Logo de KAMPO" style="width: 100;"></img>
         </div>
     <td colspan="1" valign="top" style="font-weight: bold;">
     Agrisoft
     <div style="text-align: center;">
-                <img src="logo2.png" alt="logo 2" style="width: 40;"></img>
+                <img src="assets/img/logo_agrisoft2.png" alt="Logo de Agrisoft" style="width: 80;"></img>
         </div>
     </td>
     <td colspan="1" valign="top" style="font-weight: bold;">
       Agricolum
       <div style="text-align: center; margin-top: 20px;">
-                <img src="logo3.png" alt="Logo 3" style="width: 65;"></img>
+                <img src="assets/img/logo_agricolum.png" alt="Logo de Agricolum" style="width: 80;"></img>
             </div>
       </td>
     <td colspan="1" valign="top" style="font-weight: bold;" >
       Prismab
       <div style="text-align: center; margin-top: 10px;">
-                <img src="logo4.png" alt="Logo 4" style="width: 65;"></img>
+                <img src="assets/img/logo_prismab.png" alt="Logo de Prismab.png" style="width: 180;"></img>
             </div>
     </td>
   </tr>
@@ -399,7 +399,7 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
   </tr>
   <tr>
     <td colspan="2">Ventaja competitiva¿Qué valor ofrece a los clientes?</td>
-    <td colspan="1" valign="top">texto</td>
+    <td colspan="1" valign="top">Capacidad de traducir la gestión del cultivo en decisiones financieras simples, integrando en una sola plataforma el control operativo, el uso de recursos y la rentabilidad, mediante una experiencia accesible y adaptada a los usuarios.</td>
     <td colspan="1" valign="top">Tiene amplia experiencia, módulos empresariales y fuerte control financiero.</td>
     <td colspan="1" valign="top">Es muy fuerte en trazabilidad y facilidad de uso móvil.</td>
     <td colspan="1" valign="top">Está especializado en trazabilidad y operaciones agroindustriales.</td>
@@ -423,7 +423,7 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
     <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
     <td colspan="2">Productos & Servicios</td>
     <td colspan="1" valign="top">Registro de parcelas y cultivos, gastos, cosechas, stock de insumos, rentabilidad, dashboard y alertas.</td>
-    <td colspan="1" valign="top">Costos de producción, almacenes, planillas, maquinaria, logística, tesorería y BI.</td>
+    <td colspan="1" valign="top">Costos de producción, almacenes, planillas, maquinaria, logística y tesorería.</td>
     <td colspan="1" valign="top">Cuaderno de campo digital, GPS, trazabilidad, gestión de cultivos y reportes.</td>
     <td colspan="1" valign="top">Trazabilidad, control de procesos, producción y gestión agrícola.</td>
   </tr>
@@ -432,7 +432,7 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
     <td colspan="1" valign="top">La primera membresía basica cuesta S/.20 mensual, la membresia intermedia cuesta S/.45 mensual y la membresia premium cuesta S/.95 mensual.</td>
     <td colspan="1" valign="top">texto</td>
     <td colspan="1" valign="top">La primera membresía es gratuita, la segunda cuesta 168€ al año y la tercera, 336€ al año</td>
-    <td colspan="1" valign="top">texto</td>
+    <td colspan="1" valign="top">No tiene membresías. Vende productos IoT (sensores, transmisores, etc.)</td>
   </tr>
   <tr>
     <td colspan="2">Canales de distribución (Web y/o Móvil)</td>
@@ -474,6 +474,7 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
     <td colspan="1" valign="top">Depende principalmente de empresas agroindustriales grandes y limita su escalabilidad hacia segmentos más amplios.</td>
   </tr>
 </table>
+
 ##### 2.1.2. Estrategias y tácticas frente a competidores
 ## 2.2. Entrevistas
 ##### 2.2.1. Diseño de entrevistas
