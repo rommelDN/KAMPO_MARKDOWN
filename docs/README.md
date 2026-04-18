@@ -509,6 +509,32 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
 
 - Diferenciarse al integrar en una sola plataforma el manejo del cultivo y el control de la rentabilidad, brindando una visión completa del negocio agrícola.
 
+#### Tácticas:
+
+
+- Implementar tutoriales interactivos y soporte dentro de la plataforma que acompañen al usuario en sus primeros usos.
+
+
+
+
+- Incorporar dashboards simples y alertas automáticas que conviertan los datos en acciones concretas para el agricultor.
+
+
+
+
+- Conectar el registro de cultivos con el análisis de costos y rentabilidad para ofrecer información en tiempo real.
+
+
+
+
+- Mostrar el valor de la plataforma mediante demostraciones en campo y contenido práctico en redes sociales.
+
+
+
+
+- Generar alianzas con agrónomos, asociaciones y cooperativas para impulsar la adopción y fortalecer la confianza en la herramienta.
+---
+
 ## 2.2. Entrevistas
 ##### 2.2.1. Diseño de entrevistas
 ##### 2.2.2. Registro de entrevistas
