@@ -343,6 +343,10 @@ un requisito competitivo y no solo una ventaja.
 <div align="justify">
   Agricolum es una plataforma internacional de origen español que combina el cuaderno de campo digital con la gestión operativa y financiera de una explotación agrícola. Además, permite registrar tareas y tratamientos fitosanitarios, controlar costos por cultivo, gestionar mano de obra, generar trazabilidad obligatoria para normativas europeas y exportar informes regulatorios, y sus funcionalidades incluyen la planificación de cosechas, el control de inventario de insumos, el registro de jornales y la generación automática de reportes para certificaciones. Finalmente, esta plataforma está enfocada en empresas de servicios agrícolas, cooperativas y asesores agrónomos que necesitan cumplir con exigencias legales de trazabilidad y cuaderno de campo digital.
 </div>
+<br>
+<div align="justify">
+  Prismab es una solución especializada en el monitoreo técnico del riego, con un fuerte enfoque en la eficiencia hídrica y la reducción del consumo de agua, por esta razón, utiliza sensores inalámbricos que miden humedad del suelo y salinidad, enviando datos en tiempo real a una plataforma digital. También incluye funcionalidades como alertas automáticas por condiciones críticas, reportes históricos de consumo de agua, recomendaciones precisas para optimizar el riego e integración con sistemas de riego automatizado. En resumen, Prismab está enfocada en agricultores que ya utilizan o desean implementar riego tecnificado, especialmente en zonas con estrés hídrico, y en cultivos de alto valor.
+</div>
 
 ##### 2.1.1. Análisis competitivo
 El análisis competitivo implica examinar detenidamente a nuestros competidores para identificar sus fortalezas, debilidades, oportunidades y amenazas. Esto nos proporcionará una visión clara de nuestro posicionamiento en el mercado y nos ayudará a desarrollar estrategias efectivas.
