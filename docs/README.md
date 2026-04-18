@@ -162,6 +162,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 **GreenSopt** es una starup de tecnología agrícola fundado por estudiantes universitarios peruanos, con la misión de digitalizar la gestión del campo para pequeños y medianos agricultores del Perú. Nuestro producto principal, **KAMPO**, es una plataforma SaaS que combina el monitoreo de cultivos y control de rentabilidad en una sola herramienta accesible y diseñada para el contexto local.
 La mayoría de agricultores peruanos apun gestionan sus cultivos y finanzas de forma manual, sin acceso a herramientas digitales especializadas. KAMPO busca cerrar esa brecha ofreciendo tres planes adaptados a distintos niveles de adopción tecnología:
+**GreenSopt** es una startup de tecnología agrícola fundado por estudiantes universitarios peruanos, con la misión de digitalizar la gestión del campo para pequeños y medianos agricultores del Perú. Nuestro producto principal, **KAMPO**, es una plataforma SaaS que combina el monitoreo de cultivos y control de rentabilidad en una sola herramienta accesible y diseñada para el contexto local.
+La mayoría de agricultores peruanos aún gestionan sus cultivos y finanzas de forma manual, sin acceso a herramientas digitales especializadas. KAMPO busca cerrar esa brecha ofreciendo tres planes adaptados a distintos niveles de adopción tecnología:
 **Semilla** ( gestión básica ), **Cosecha** ( integración IoT y reportes ) y **Hacienda** ( Inteligencia Artificial y gestión multi-parcela ).
 
 ##### 1.1.2. Perfiles de integrantes del equipo
@@ -180,7 +182,7 @@ La transformación digital del agro es reconocida como una necesidad urgente. La
 
 ---
 
-###### Problematica
+###### Problemática
 
 **¿Quién?** Pequeños y medianos agricultores peruanos, que representan el 85% del total de productores del país, con parcelas de entre 3 y 50 hectáreas. Se ubican en las tres regiones naturales del Perú: costa, sierra y selva, y gestionan cultivos de consumo interno y exportación. En la sierra, el 63.6% son pequeños productores que trabajan con tierras de menor extensión (EY, 2025).
 
@@ -207,7 +209,7 @@ El pequeño y mediano agricultor peruano opera con información insuficiente, to
 ###### 1.2.2.1. Lean UX Problem Statements
 En el sector agrícola peruano, el pequeño y mediano productor (que gestiona entre 3 y 50 hectáreas) opera en un entorno de alta incertidumbre y falta de herramientas técnicas. 
 A diferencia de las grandes agroexportadoras que utilizan tecnología de precisión, el agricultor tradicional toma decisiones críticas basadas en la intuición o experencias pasasdas.
-¿Como podriamos facilitar que estos productores accedan a datos técnicos de su campo sin que puedan tener una inversión inalcanzable?
+¿Cómo podríamos facilitar que estos productores accedan a datos técnicos de su campo sin que puedan tener una inversión inalcanzable?
 
 Hemos observado que la gestión del riego es uno de los puntos más críticos. Actualmente, gran parte de los agricultores riega bajo un calendario fijo o por simple observación, 
 lo que genera un desperdicio de agua de hasta el 45%. Esto reduce la calidad del producto final e impide que se venda a un precio competitivo. Ante esto, surge la interrogante:
@@ -219,7 +221,7 @@ la inversión en insumos y mano de obra. ¿De qué manera podríamos ayudar a lo
 
 Finalmente, factores externos  como el cambio climático y el alza de precios en fertilizantes obligan a los productores a ser más eficientes que nunca. Sin embargo, la información 
 técnica sobre el estado de sus cultivos tarda en ser procesada o simplemente no existe, esto impide que el agricultor llegue a tomar decisiones a ciegas y no pueda gestionar de una 
-manera rentable su cultivo. ¿De qué manera podríamos ayudar a los agricultores a que puedan tener gestionar su cosecha de manera rentable?
+manera rentable su cultivo. ¿De qué manera podríamos ayudar a los agricultores a que puedan gestionar su cosecha de manera rentable?
 
 ###### 1.2.2.2. Lean UX Assumptions
 #### A. BUSINESS OUTCOMES
@@ -229,7 +231,15 @@ Para que nuestro software pueda tener un mejor resultado, hemos realizado divers
 * gratuitamente.
 * **Crecimiento Orgánico:** Conseguir que cada usuario activo refiera al menos a más agricultores de su misma zona o asociación, reduciendo el costo de adquisición de clientes en
 * regiones rurales, de esta manera la aplicación crecerá de manera exponencial en el rubro de la agricultura.
+* **Reducción de Abandono:** Mantener una tasa de abandono menor al 10% mensual, asegurando que el agricultor pueda gestionar sus datos con nuestra app luego de probarlo gratuitamente.
+
+
+* **Crecimiento Orgánico:** Conseguir que cada usuario activo refiera al menos a más agricultores de su misma zona o asociación, reduciendo el costo de adquisición de clientes en regiones rurales, de esta manera la aplicación crecerá de manera exponencial en el rubro de la agricultura.
+
+
 * **Escalabilidad del Dominio:** Validar que el modelo de "Campaña y Lote" funcione tanto para cultivos de costa como de la sierra, permitiendo tener una expansión por todo el Perú.
+
+
 * **Reducción de Pérdidas:** Disminuir en un 25% las pérdidas de cultivos reportadas por los usuarios gracias a la anticipación mediante alertas técnicas.
 
 #### B. USERS OUTCOMES
@@ -237,16 +247,26 @@ Vamos a asumir diversos supuestos del cliente para que de esta manera tener una 
 
 * **¿Quién es el cliente?**
   Pequeños y medianos agricultores peruanos ubicados en las regiones del Perú, que poseen smartphones pero carecen de herramientas digitales especializadas para el campo.
+
+
 * **¿Dónde encaja nuestro producto en su vida?**
   Como una herramienta de consulta diaria en la parcela para la toma de decisiones técnicas y como libro digital para operaciones financieras.
+
+
 * **¿Qué problemas soluciona nuestro producto?**
   Elimina la incertidumbre sobre el riego, previene la pérdida de cultivos por falta de datos técnicos y ambientales y ayuda a la gestión financiera de los usuarios.
+
+
 * **¿Cuándo y cómo se utiliza nuestro producto?**
   Diariamente para monitorear el estado del suelo y clima, y de manera frecuente para el control de gastos operativos.
+
+
 * **¿Qué características son importantes?**
   Alertas preventivas de riego/clima, registro simplificado de ingresos y egresos, historial de campañas, etc.
+
+
 * **¿Cómo deberían verse y comportarse nuestro producto?**
-  Con una interfaz amigable, iconos con fácil visibilidad, legibles, que pueda ser fácil el uso para los agricultores y que tengan un rendimiento bueno.
+  Con una interfaz amigable, iconos con fácil visibilidad, legibles, que pueda ser de fácil uso para los agricultores y que tengan un rendimiento bueno.
   
 ###### 1.2.2.3. Lean UX Hypothesis Statements
 
@@ -254,6 +274,7 @@ Vamos a asumir diversos supuestos del cliente para que de esta manera tener una 
 **Creemos que** al proporcionar un sistema de alertas de riego basado en sensores de humedad y clima para los pequeños y medianos agricultores, lograremos que reduzcan el
 desperdicio de agua en un 20% y mejoren la calidad de su cosecha. **Sabremos que tenemos razón cuando** los registros de riego en la plataforma muestren resultados en comparación a
 como antes el usuarios desperdiciaba agua en sus cultivos.
+
 
 * **Hipótesis 2:**
 **Creemos que** al implementar un módulo de registro simplificado de ingresos y egresos por campaña para los productores, lograremos que el agricultor identifique su utilidad neta
@@ -302,6 +323,7 @@ sus recomendaciones técnicas con cada cliente.
 Las funciones que más valoran son el historial de cultivos por parcela,
 las alertas automáticas por condición del suelo o clima, y los reportes
 exportables para compartir con los propietarios del fundo.
+
 ---
 
 **Segmento 2: Agroindustria mediana y grande**
