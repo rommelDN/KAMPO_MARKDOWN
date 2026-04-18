@@ -335,6 +335,11 @@ un requisito competitivo y no solo una ventaja.
 
 ## Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
+<br>
+<div align="justify">
+  Agrisoft es una empresa peruana centrada en la gestión administrativa y financiera del sector agroindustrial, la cual ofrece un sistema ERP completo que permite controlar costos por hectárea, manejar planillas, gestionar almacenes, llevar trazabilidad de cosechas y facturar electrónicamente integrado con SUNAT. Asimismo, algunas de sus funcionalidades son el registro detallado de insumos, maquinaria y mano de obra, la generación de reportes financieros por cultivo o temporada, y el control de stock y compras. Por último, este sistema está enfocado en grandes agroexportadoras, cooperativas agrícolas de tamaño mediano a grande y empresas del agro peruano que requieren un control contable riguroso.
+</div>
+
 ##### 2.1.1. Análisis competitivo
 El análisis competitivo implica examinar detenidamente a nuestros competidores para identificar sus fortalezas, debilidades, oportunidades y amenazas. Esto nos proporcionará una visión clara de nuestro posicionamiento en el mercado y nos ayudará a desarrollar estrategias efectivas.
 
