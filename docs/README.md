@@ -160,8 +160,6 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 #### 1.1. Startup Profile
 ##### 1.1.1. Descripción de la Startup
 
-**GreenSopt** es una starup de tecnología agrícola fundado por estudiantes universitarios peruanos, con la misión de digitalizar la gestión del campo para pequeños y medianos agricultores del Perú. Nuestro producto principal, **KAMPO**, es una plataforma SaaS que combina el monitoreo de cultivos y control de rentabilidad en una sola herramienta accesible y diseñada para el contexto local.
-La mayoría de agricultores peruanos apun gestionan sus cultivos y finanzas de forma manual, sin acceso a herramientas digitales especializadas. KAMPO busca cerrar esa brecha ofreciendo tres planes adaptados a distintos niveles de adopción tecnología:
 **GreenSopt** es una startup de tecnología agrícola fundado por estudiantes universitarios peruanos, con la misión de digitalizar la gestión del campo para pequeños y medianos agricultores del Perú. Nuestro producto principal, **KAMPO**, es una plataforma SaaS que combina el monitoreo de cultivos y control de rentabilidad en una sola herramienta accesible y diseñada para el contexto local.
 La mayoría de agricultores peruanos aún gestionan sus cultivos y finanzas de forma manual, sin acceso a herramientas digitales especializadas. KAMPO busca cerrar esa brecha ofreciendo tres planes adaptados a distintos niveles de adopción tecnología:
 **Semilla** ( gestión básica ), **Cosecha** ( integración IoT y reportes ) y **Hacienda** ( Inteligencia Artificial y gestión multi-parcela ).
@@ -498,6 +496,22 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
 </table>
 
 ##### 2.1.2. Estrategias y tácticas frente a competidores
+
+#### Estrategias:
+
+- Posicionar a KAMPO como una alternativa práctica y económica, diseñada específicamente para agricultores que no cuentan con las herramientas digitales necesarias.
+
+
+- Permitir que el usuario empiece con funciones básicas y, a medida que gana confianza, pueda acceder a herramientas más avanzadas sin complicaciones.
+
+
+- Reducir la barrera de adopción tecnológica mediante una experiencia simple y clara, adaptada al contexto rural y al nivel digital del usuario.
+
+
+- Construir una propuesta de valor basada en el uso de datos simples y útiles, que permitan al agricultor tomar decisiones rápidas sin necesidad de conocimientos técnicos avanzados.
+
+
+- Diferenciarse al integrar en una sola plataforma el manejo del cultivo y el control de la rentabilidad, brindando una visión completa del negocio agrícola.
 
 ## 2.2. Entrevistas
 ##### 2.2.1. Diseño de entrevistas
