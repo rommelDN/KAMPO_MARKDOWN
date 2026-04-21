@@ -620,12 +620,37 @@ Duración estimada: 20–25 minutos por entrevista.
 ##### 2.3.3. User Journey Mapping
 ##### 2.3.4. Empathy Mapping
 ## 2.4. Big Picture Event Storming
+
+
 ## 2.5. Ubiquitous Language
+
+<div align="justify">
+  <ul>
+    <li>Rustic property (Fundo): Unidad productiva completa que agrupa uno o varios lotes.</li>
+    <li>Field (Lote): Subdivisión del fundo donde se gestiona un cultivo específico.</li>
+    <li>Crop (Cultivo): Tipo de planta sembrada en un lote durante una campaña.</li>
+    <li>Season (Temporada): Periodo productivo de un cultivo en un lote.</li>
+    <li>Field visit (Visita de campo): Evento en el que un ingeniero inspecciona un lote en una fecha específica.</li>
+    <li>Observation (Observación): Registro del estado general del cultivo durante una visita.</li>
+    <li>Pest (Plaga): Organismo visible que daña el cultivo.</li>
+    <li>Disease (Enfermedad): Alteración del cultivo causada por patógenos (hongos, bacterias, virus).</li>
+    <li>Severity (Severidad): Nivel de impacto de una plaga o enfermedad en el cultivo.</li>
+    <li>Treatment application (Aplicación de insumo): Uso de productos (fertilizantes, pesticidas, etc.) en el cultivo.</li>
+    <li>Recommendation (Recomendación): Acción sugerida tras una evaluación.</li>
+    <li>Weather condition (Condición climática): Datos del clima en un momento específico.</li>
+    <li>Weather alert (Alerta climática): Notificación generada por condiciones climáticas riesgosas.</li>
+    <li>Historical data (Historial): Conjunto de registros organizados en el tiempo.</li>
+    <li>Report (Reporte): Documento generado automáticamente con información técnica.</li>
+  </ul> 
+</div>
 
 ---
 
 ## Capítulo III: Requirements Specification
 ## 3.1. User Stories
+
+
+
 ## 3.2. Impact Mapping
 ## 3.3. Product Backlog
 
