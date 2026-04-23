@@ -545,7 +545,18 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
 ##### 2.3.3. User Journey Mapping
 ##### 2.3.4. Empathy Mapping
 ## 2.4. Big Picture Event Storming
-
+<div align="justify">
+  Empleamos la técnica de Big Picture Event para que, a través del modelado, se pueda explorar y comprender el dominio del negocio identificando eventos clave, actores y sus interacciones. Además, nos brinda una visión global del funcionamiento del sistema, facilitando la detección de procesos, relaciones y posibles problemáticas dentro del negocio.
+</div>
+<br>
+<div align="justify">
+  En consecuencia, al aplicar esta herramienta, nos ayudo a comprender el dominio del negocio de gestión de fundos dentro del sector agrícola y su funcionamiento general, brindando el contexto donde se desarrolla nuestra solución, Kampo.
+</div>
+  <br>
+<div align="justify">
+  A continuación, se siguieron tres pasos esenciales para elaborar el Big Picture Event Storming:
+  
+</div>
 
 ## 2.5. Ubiquitous Language
 
