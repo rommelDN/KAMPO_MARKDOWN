@@ -580,6 +580,20 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
 
 ![event_storming_step2_2](/docs/assets/img/event_storming_step2_1.png)
 
+<br>
+<div align="justify">
+  PAso 3: Agregando actores y sistemas externos
+</div>
+<div align="justify">
+  Por ultimo, se adicionan los actores y sistemas externos que interactúan con el dominio, permitiendo identificar quienes participan y qué herramientas o medios intervienen.
+</div>
+<br>
+
+![event_storming_step3_1](/docs/assets/img/event_storming_step3_1.png)
+
+![event_storming_step3_2](/docs/assets/img/event_storming_step3_2.png)
+
+
 ## 2.5. Ubiquitous Language
 
 <div align="justify">
