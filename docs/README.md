@@ -664,9 +664,320 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
 ## Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
 ##### 5.1.1. Software Development Environment Configuration
+A continuación se detallan todas las herramientas y productos de software que los miembros del equipo GreenSpot deben instalar o utilizar para colaborar en el ciclo de vida de KAMPO, organizadas por tipo de actividad.
+
+---
+
+**Project Management**
+
+| Producto        | Propósito | Tipo | Referencia |
+|-----------------|---|---|---|
+| GitHub Projects | Gestión de tareas, sprints y backlog del equipo | SaaS | https://github.com |
+| Whatsapp        | Comunicación interna del equipo y reuniones de sprint | SaaS | https://discord.com |
+| Google Meet     | Reuniones formales y entrevistas con usuarios | SaaS | https://meet.google.com |
+
+---
+
+**Requirements Management**
+
+| Producto | Propósito | Tipo | Referencia |
+|---|---|---|---|
+| Google Docs | Redacción colaborativa del informe y requerimientos | SaaS | https://docs.google.com |
+| Trello | Seguimiento de historias de usuario por sprint | SaaS | https://trello.com |
+
+---
+
+**Product UX/UI Design**
+
+| Producto | Propósito | Tipo | Referencia |
+|---|---|---|---|
+| Figma | Diseño de wireframes, mockups y prototipo de KAMPO | SaaS | https://figma.com |
+| Miro | Elaboración de mapas de empatía, journey maps y canvas | SaaS | https://miro.com |
+
+---
+
+**Software Development**
+
+| Producto | Propósito                                                                      | Tipo | Referencia |
+|---|--------------------------------------------------------------------------------|---|---|
+| IntelliJ IDEA | IDE principal para desarrollo del backend con Spring Boot y frontend con Angular | Descarga | https://jetbrains.com/idea |
+| Node.js (v20 LTS) | Entorno de ejecución requerido por Angular CLI                                 | Descarga | https://nodejs.org |
+| Angular CLI (v17) | Herramienta de línea de comandos para scaffolding Angular                      | Descarga (npm) | https://angular.io/cli |
+| Java JDK 17 | Entorno de desarrollo para Spring Boot                                         | Descarga | https://adoptium.net |
+| Spring Boot (v3.x) | Framework backend para construcción de la API REST                             | Descarga (Maven) | https://spring.io/projects/spring-boot |
+| MySQL 8.x | Motor de base de datos relacional del proyecto                                 | Descarga | https://dev.mysql.com/downloads |
+| MySQL Workbench | Herramienta visual para gestión y modelado de la base de datos                 | Descarga | https://dev.mysql.com/downloads/workbench |
+| Postman | Prueba manual de endpoints de la API REST                                      | Descarga | https://postman.com |
+| Maven | Gestión de dependencias del proyecto Spring Boot                               | Integrado en IDE | https://maven.apache.org |
+
+---
+
+**Software Documentation**
+
+| Producto | Propósito | Tipo | Referencia |
+|---|---|---|---|
+| Markdown + GitHub | Documentación técnica en los repositorios | SaaS | https://github.com |
+
+---
+
+**Software Deployment**
+
+| Producto | Propósito | Tipo | Referencia |
+|---|---|---|---|
+| Railway | Despliegue del backend (Spring Boot) y base de datos (MySQL) | SaaS | https://railway.app |
+| GitHub Pages | Despliegue del Landing Page estático | SaaS | https://pages.github.com |
+| Vercel | Despliegue del frontend Angular (producción) | SaaS | https://vercel.com |
+
+---
 ##### 5.1.2. Source Code Management
+
+El equipo GreenSpot utilizará **GitHub** como plataforma de control de
+versiones y colaboración de código fuente para todos los productos digitales
+de KAMPO. Se crearán tres repositorios independientes.
+
+| Producto                           | URL del repositorio |
+|------------------------------------|---------------------|
+| Landing Page                       |                     |
+| Frontend Web Application (Angular) |                     |
+| RESTful Web Services (Spring Boot) |                     |
+| KAMPO Documentacion (MARKDOWN)     |                     |
+
+---
+
+**Implementación de GitFlow**
+
+El equipo adoptará **GitFlow** como workflow de control de versiones,
+siguiendo el modelo propuesto por Vincent Driessen. Las ramas que se
+manejarán en todos los repositorios son las siguientes:
+
+- `main`: rama principal de producción. Solo recibe merges desde
+  `release` o `hotfix`. Representa siempre el código desplegado y
+  estable en producción.
+
+- `develop`: rama de integración continua. Todas las features
+  completadas se integran aquí antes de pasar a una release. Es la
+  rama base para crear nuevos feature branches.
+
+- `feature/[nombre-de-feature]`: una rama por cada funcionalidad nueva.
+  Se crean desde `develop` y se integran de vuelta a `develop` mediante
+  Pull Request con revisión de al menos un miembro del equipo.
+
+- `release/[versión]`: rama para preparar una nueva versión de
+  producción. Se crea desde `develop` cuando las features del sprint
+  están completas. Solo se permiten correcciones menores y actualización
+  de versión. Se integra tanto a `main` como a `develop`.
+
+- `hotfix/[nombre]`: rama para correcciones urgentes en producción.
+  Se crea desde `main` y se integra tanto a `main` como a `develop`.
+
+---
+
+**Convenciones para nombrar ramas**
+
+Las convenciones de nomenclatura serán las siguientes, aplicando siempre
+kebab-case y en inglés:
+> feature/[módulo]-[descripción-corta]
+
+> release/v[MAJOR].[MINOR].[PATCH]
+
+> hotfix/[descripción-corta]
+
+---
+
+**Semantic Versioning**
+
+El equipo aplicará **Semantic Versioning 2.0.0** para el nombrado de
+releases, siguiendo el esquema `MAJOR.MINOR.PATCH`:
+
+- `MAJOR`: cambios incompatibles con versiones anteriores de la API.
+- `MINOR`: nuevas funcionalidades compatibles con versiones anteriores.
+- `PATCH`: correcciones de errores compatibles con versiones anteriores.
+
+La primera versión funcional del producto será `v1.0.0`, correspondiente
+al entregable del Sprint 1 con las funcionalidades core del MVP.
+
+---
+
+**Conventional Commits**
+
+El equipo aplicará la especificación **Conventional Commits** para todos
+los mensajes de commit en los tres repositorios. El formato es:
+
+> <tipo>(<alcance>): <descripción corta en inglés>
+
+### Tipos permitidos:
+- `feat `     → nueva funcionalidad
+- `fix  `     → corrección de error
+- `docs `     → cambios en documentación
+- `style`     → cambios de formato sin afectar lógica
+- `refactor`  → refactorización sin nueva funcionalidad ni fix
+- `test `     → adición o modificación de pruebas
+- `chore`     → tareas de mantenimiento, dependencias, configuración
+
+---
+
 ##### 5.1.3. Source Code Style Guide & Conventions
+
+El equipo adoptará las siguientes guías de estilo por lenguaje y
+tecnología. Toda la nomenclatura de código fuente se escribirá en
+**inglés**, sin excepción.
+
+---
+
+**HTML & CSS**
+
+Se seguirán las convenciones de:
+- *HTML Style Guide and Coding Conventions* (W3Schools)
+- *Google HTML/CSS Style Guide*
+
+Convenciones principales:
+- Indentación de 2 espacios.
+- Atributos HTML en minúsculas y entre comillas dobles.
+- Clases CSS en kebab-case: `crop-card`, `alert-banner`.
+- Evitar estilos inline; usar archivos `.css` o `.scss` separados.
+- Usar unidades relativas (`rem`, `%`, `vh`) para responsive design.
+
+---
+
+**TypeScript / Angular**
+
+Se seguirán las convenciones de:
+- *Angular Coding Style Guide* (oficial de Angular)
+- *Google TypeScript Style Guide*
+
+Convenciones principales:
+- Nombres de componentes en PascalCase: `CropMonitoringComponent`.
+- Nombres de archivos en kebab-case: `crop-monitoring.component.ts`.
+- Servicios con sufijo `Service`: `AlertService`, `CropService`.
+- Interfaces con prefijo `I` o nombre descriptivo: `ICrop`, `AlertModel`.
+- Un componente por archivo; máximo 400 líneas por archivo.
+- Uso de `async/await` sobre callbacks para llamadas HTTP.
+- Módulos organizados por dominio funcional:
+  `CropModule`, `FinancialModule`, `AuthModule`.
+
+---
+
+**Java / Spring Boot**
+
+Se seguirán las convenciones de:
+- *Google Java Style Guide*
+- *Spring Boot Features* (documentación oficial)
+
+Convenciones principales:
+- Clases en PascalCase: `CropController`, `AlertService`.
+- Métodos y variables en camelCase: `getCropById()`, `alertMessage`.
+- Constantes en UPPER_SNAKE_CASE: `MAX_PARCELS_PER_USER`.
+- Paquetes en minúsculas por dominio:
+  `com.greenspot.kampo.crop`, `com.greenspot.kampo.financial`.
+- Arquitectura por capas: `controller`, `service`, `repository`, `model`.
+- Uso de anotaciones estándar de Spring:
+  `@RestController`, `@Service`, `@Repository`, `@Entity`.
+- Documentación de endpoints con Swagger/OpenAPI 3 mediante
+  `springdoc-openapi`.
+
+---
+
+**Gherkin (pruebas de aceptación)**
+
+Se seguirán las convenciones de:
+- *Gherkin Conventions for Readable Specifications*
+
+Convenciones principales:
+- Scenarios en inglés, descriptivos y sin ambigüedad.
+- Un escenario por comportamiento específico.
+- Formato estándar `Given / When / Then`.
+- Archivos `.feature` nombrados por módulo:
+  `crop_monitoring.feature`, `cost_register.feature`.
+
+Ejemplo:
+```gherkin
+Feature: Crop humidity alert
+
+  Scenario: Alert triggered when humidity is below threshold
+    Given the farmer has a registered crop with humidity sensor
+    When the soil humidity drops below 30%
+    Then the system should send an automatic alert to the farmer
+```
+---
+
 ##### 5.1.4. Software Deployment Configuration
+
+A continuación se describe la configuración de despliegue para cada uno
+de los tres productos digitales de KAMPO, partiendo desde los repositorios
+de código fuente hasta la publicación en producción.
+
+---
+
+**Landing Page → GitHub Pages**
+
+1. El código fuente del Landing Page (HTML, CSS, JS estático) reside
+   en el repositorio `kampo-landing`, rama `main`.
+2. En el repositorio, ir a *Settings → Pages → Source: Deploy from
+   branch → main → /root*.
+3. GitHub Pages publicará automáticamente el sitio en:
+   [URL]
+4. Cada push a `main` desencadena un redespliegue automático.
+5. Para un dominio personalizado futuro (ej. `kampo.pe`), configurar
+   el archivo `CNAME` en la raíz del repositorio.
+
+---
+
+**Frontend Web Application (Angular) → Vercel**
+
+1. El código fuente reside en el repositorio `kampo-frontend`.
+2. Crear cuenta en Vercel (https://vercel.com) e importar el repositorio
+   desde GitHub.
+3. Configurar el proyecto en Vercel:
+    - Framework Preset: `Angular`
+    - Build Command: `ng build --configuration production`
+    - Output Directory: `dist/kampo-frontend`
+4. Configurar la variable de entorno en Vercel:
+    - `KAMPO_API_URL` → URL pública del backend en Railway
+5. Vercel desplegará automáticamente en cada push a `main`.
+   Los Pull Requests generarán preview deployments automáticos para
+   revisión antes de integrar a producción.
+6. URL de producción asignada por Vercel:
+   [URL]
+
+---
+
+**RESTful Web Services (Spring Boot + MySQL) → Railway**
+
+1. El código fuente reside en el repositorio `kampo-backend`.
+2. Crear cuenta en Railway (https://railway.app) y crear un nuevo
+   proyecto.
+3. Añadir un servicio de base de datos:
+    - Seleccionar *Add Service → Database → MySQL*.
+    - Railway proveerá automáticamente las variables de conexión:
+      `MYSQLHOST`, `MYSQLPORT`, `MYSQLDATABASE`, `MYSQLUSER`,
+      `MYSQLPASSWORD`.
+4. Añadir el servicio del backend:
+    - Seleccionar *Add Service → GitHub Repo → kampo-backend*.
+    - Railway detectará automáticamente el proyecto Maven/Spring Boot.
+5. Configurar las variables de entorno en Railway para el servicio
+   backend:
+    ```
+    SPRING_DATASOURCE_URL=jdbc:mysql://MYSQLHOST:{MYSQLHOST}:
+    MYSQLHOST:{MYSQLPORT}/${MYSQLDATABASE}
+    SPRING_DATASOURCE_USERNAME=${MYSQLUSER}
+    SPRING_DATASOURCE_PASSWORD=${MYSQLPASSWORD}
+    SPRING_JPA_HIBERNATE_DDL_AUTO=update
+    SERVER_PORT=8080
+    ```
+6. En el archivo `application.properties` del proyecto, referenciar
+   las variables de entorno para no exponer credenciales en el código:
+    ```properties
+       spring.datasource.url=${SPRING_DATASOURCE_URL}
+       spring.datasource.username=${SPRING_DATASOURCE_USERNAME}
+       spring.datasource.password=${SPRING_DATASOURCE_PASSWORD}
+       spring.jpa.hibernate.ddl-auto=${SPRING_JPA_HIBERNATE_DDL_AUTO}
+    ```
+7. Railway desplegará automáticamente en cada push a `main`.
+   La URL pública del backend tendrá el formato:
+   `https://kampo-backend.up.railway.app`
+8. Los endpoints estarán documentados y disponibles en:
+   `https://kampo-backend.up.railway.app/swagger-ui/index.html`
+
 ## 5.2. Landing Page, Services & Applications Implementation
 ##### 5.2.X. Sprint n
 ###### 5.2.X.1. Sprint Planning n
