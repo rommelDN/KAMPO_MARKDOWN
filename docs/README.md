@@ -569,7 +569,7 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
 
 <br>
 <div align="justify">
-  Paso 2: Ordeanr los eventos del dominio
+  Paso 2: Ordenar los eventos del dominio
 </div>
 <div align="justify">
   En esta etapa, se organizan los eventos cronológicamente, mejorando la visualización del flujo de los procesos del negocio. Además, facilita la comprensión de cómo se desarrollan las operaciones y cómo se relacionan los distintos eventos entre sí.
@@ -582,7 +582,7 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
 
 <br>
 <div align="justify">
-  PAso 3: Agregando actores y sistemas externos
+  Paso 3: Agregando actores y sistemas externos
 </div>
 <div align="justify">
   Por ultimo, se adicionan los actores y sistemas externos que interactúan con el dominio, permitiendo identificar quienes participan y qué herramientas o medios intervienen.
