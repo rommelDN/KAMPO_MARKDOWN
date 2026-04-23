@@ -567,6 +567,19 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
 
 ![event_storming_step1](/docs/assets/img/event_storming_step1.png)
 
+<br>
+<div align="justify">
+  Paso 2: Ordeanr los eventos del dominio
+</div>
+<div align="justify">
+  En esta etapa, se organizan los eventos cronológicamente, mejorando la visualización del flujo de los procesos del negocio. Además, facilita la comprensión de cómo se desarrollan las operaciones y cómo se relacionan los distintos eventos entre sí.
+</div>
+<br>
+
+![event_storming_step2_1](/docs/assets/img/event_storming_step2_1.png)
+
+![event_storming_step2_2](/docs/assets/img/event_storming_step2_1.png)
+
 ## 2.5. Ubiquitous Language
 
 <div align="justify">
