@@ -555,8 +555,17 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
   <br>
 <div align="justify">
   A continuación, se siguieron tres pasos esenciales para elaborar el Big Picture Event Storming:
-  
 </div>
+<br>
+<div align="justify">
+  Paso 1: Generar los eventos de dominio
+</div>
+<div align="justify">
+  En esta etapa, se identifican los eventos relevantes del dominio del negocio, los cuales nos permiten tener una visión inicial del funcionamiento del negocio.
+</div>
+<br>
+
+![event_storming_step1](/docs/assets/img/event_storming_step1.png)
 
 ## 2.5. Ubiquitous Language
 
