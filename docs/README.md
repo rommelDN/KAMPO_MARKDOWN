@@ -565,7 +565,7 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
 </div>
 <br>
 
-![big_picture_event_storming_step1](/docs/assets/img/event_storming/big_picture_event_storming_step1.png)
+![event_storming_step1](/docs/assets/img/event_storming/big_picture_event_storming_step1.png)
 
 <br>
 <div align="justify">
@@ -576,9 +576,9 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
 </div>
 <br>
 
-![event_storming_step2_1](/docs/assets/img/event_storming_step2_1.png)
+![big_picture_event_storming_step2_1](/docs/assets/img/event_storming/big_picture_event_storming_step2_1.png)
 
-![event_storming_step2_2](/docs/assets/img/event_storming_step2_1.png)
+![big_picture_event_storming_step2_2](/docs/assets/img/event_storming/big_picture_event_storming_step2_2.png)
 
 <br>
 <div align="justify">
