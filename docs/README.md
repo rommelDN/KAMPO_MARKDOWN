@@ -601,6 +601,8 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
     <li>Rustic property (Fundo): Unidad productiva completa que agrupa uno o varios lotes.</li>
     <li>Field (Lote): Subdivisión del fundo donde se gestiona un cultivo específico.</li>
     <li>Crop (Cultivo): Tipo de planta sembrada en un lote durante una campaña.</li>
+    <li>Input (Insumo): Recurso, material y materia prima que se utiliza en el proceso productivo.</li>
+    <li>Stock: Cantidad de productos.</li>
     <li>Season (Temporada): Periodo productivo de un cultivo en un lote.</li>
     <li>Field visit (Visita de campo): Evento en el que un ingeniero inspecciona un lote en una fecha específica.</li>
     <li>Observation (Observación): Registro del estado general del cultivo durante una visita.</li>
