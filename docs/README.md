@@ -565,7 +565,7 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
 </div>
 <br>
 
-![event_storming_step1](/docs/assets/img/event_storming_step1.png)
+![big_picture_event_storming_step1](/docs/assets/img/event_storming/big_picture_event_storming_step1.png)
 
 <br>
 <div align="justify">
