@@ -760,7 +760,7 @@ Entrevista 05:
   Desde una perspectiva conductual, se observa una orientación hacia la optimización de procesos, pero con una actitud cautelosa frente a nuevas tecnologías. Considera que una solución digital sería viable siempre que demuestre beneficios concretos y confiabilidad.
 
 ##### 2.2.3. Análisis de entrevistas
-SEGMENTO 01: Ingenieros agrónomos asesores y supervisores
+**SEGMENTO 01: Ingenieros agrónomos asesores y supervisores**
 
 A partir de las entrevistas realizadas a ingenieros agrónomos, se identificaron patrones consistentes en cuanto a la gestión de información, limitaciones operativas y necesidades tecnológicas.
 En primer lugar, se evidencia una alta dependencia de herramientas no especializadas. El 100 % de los entrevistados utiliza medios como Excel, WhatsApp o registros manuales (libretas de campo) para almacenar y comunicar información. Esta práctica genera una fragmentación de datos, dificultando la consolidación, trazabilidad y acceso oportuno a la información histórica de los cultivos.
@@ -772,6 +772,15 @@ No obstante, se identificó una alta predisposición hacia la adopción de soluc
 Sin embargo, el 66 % señaló el costo como una barrera significativa, lo que indica que cualquier solución propuesta deberá demostrar claramente su valor en términos de eficiencia y mejora en la toma de decisiones.
 En síntesis, este segmento presenta una problemática centrada en la fragmentación de la información, la falta de monitoreo en tiempo real y la ausencia de herramientas especializadas, lo que limita la eficiencia operativa y la calidad de las decisiones técnicas.
 
+**SEGEMENTO 02: Agroindustria mediana y grande**
+
+En el caso del segmento agroindustrial y gestión agrícola a escala, se identifican problemáticas asociadas principalmente a la complejidad operativa, la gestión de grandes volúmenes de información y la necesidad de mayor precisión en la toma de decisiones.
+El 100 % de los entrevistados indicó que la gestión de información se realiza mediante herramientas como Excel y reportes manuales generados a partir de datos recolectados en campo. Este enfoque evidencia una alta dependencia de procesos manuales, lo que limita la eficiencia y genera retrasos en la disponibilidad de información.
+Asimismo, se identificó que la toma de decisiones depende de múltiples variables críticas, como condiciones climáticas, estado del suelo y presencia de plagas. Sin embargo, la información relacionada a estas variables no se encuentra integrada ni disponible en tiempo real, sino que llega de manera diferida a través de reportes o comunicación con el personal de campo.
+Un aspecto clave es que el 100 % de los entrevistados manifestó la falta de visibilidad en tiempo real como una de las principales limitaciones. Esta carencia impacta directamente en la planificación, la proyección de la producción y la capacidad de respuesta ante cambios en el entorno agrícola.
+Adicionalmente, se observa que la estructura organizacional de este segmento genera una dependencia de la calidad y oportunidad de la información proveniente de terceros, lo que incrementa el riesgo de errores y decisiones tardías.
+En relación con la adopción tecnológica, se identificó interés en soluciones avanzadas como sensores y sistemas de monitoreo en tiempo real. No obstante, el 50 % de los entrevistados expresó preocupaciones relacionadas con el costo de implementación y la confiabilidad de los datos, lo que evidencia la necesidad de soluciones que no solo sean tecnológicamente robustas, sino también económicamente viables.
+En conclusión, este segmento enfrenta una problemática centrada en la falta de integración de información, la ausencia de monitoreo en tiempo real y la dependencia de procesos manuales, lo que afecta la eficiencia operativa y la toma de decisiones estratégicas en contextos de alta escala.
 
 
 ## 2.3. Needfinding
