@@ -317,6 +317,10 @@ manera rentable su cultivo. ¿De qué manera podríamos ayudar a los agricultore
 #### A. BUSINESS OUTCOMES
 Para que nuestro software pueda tener un mejor resultado, hemos realizado diversas suposiciones para validar el uso de la aplicación:
 
+* **Reducción de Abandono:** Mantener una tasa de abandono menor al 10% mensual, asegurando que el agricultor pueda gestionar sus datos con nuestra app luego de probarlo
+* gratuitamente.
+* **Crecimiento Orgánico:** Conseguir que cada usuario activo refiera al menos a más agricultores de su misma zona o asociación, reduciendo el costo de adquisición de clientes en
+* regiones rurales, de esta manera la aplicación crecerá de manera exponencial en el rubro de la agricultura.
 * **Reducción de Abandono:** Mantener una tasa de abandono menor al 10% mensual, asegurando que el agricultor pueda gestionar sus datos con nuestra app luego de probarlo gratuitamente.
 
 
@@ -629,8 +633,79 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
 
 ## 2.2. Entrevistas
 ##### 2.2.1. Diseño de entrevistas
+
+#### Introduccíon
+"Hola, muchas gracias por tu tiempo. Somos un equipo universitario
+desarrollando una solución tecnológica para el sector agrícola peruano
+llamada KAMPO. Esta conversación no es una venta: solo queremos entender
+tu experiencia y opinión. No hay respuestas correctas o incorrectas.
+¿Nos permites grabar o tomar notas para no perder los detalles?"
+
+Duración estimada: 20–25 minutos por entrevista.
+
+---
+
+## Segmento 1: Ingenieros agrónomos asesores
+
+> Perfil objetivo: Profesionales que asesoran o supervisan cultivos en
+> fundos pequeños, medianos o grandes, de forma independiente o en planilla.
+
+---
+
+### Bloque A — Contexto y problema
+
+1. ¿Cuántos fundos o productores atiendes actualmente y cómo organizas el seguimiento de cada uno?
+2. ¿Qué información necesitas recopilar regularmente para tomar decisiones sobre un cultivo? ¿Cómo la recopilas hoy?
+3. ¿Con qué herramientas registras o compartes tus recomendaciones con los dueños o encargados del fundo? (cuadernos, Excel, WhatsApp, apps, etc.)
+4. ¿Qué es lo más frustrante o ineficiente de tu flujo de trabajo actual cuando haces seguimiento a un cultivo?
+
+### Bloque B — Validación de solución
+
+1. Si tuvieras una plataforma donde pudieras registrar el estado de cada cultivo, recibir alertas automáticas y compartir reportes con el dueño del fundo, ¿qué tanto cambiaría tu forma de trabajar?
+2. ¿Qué funciones considerarías indispensables en una herramienta así para usarla en tu día a día?
+3. ¿Usarías sensores IoT si el costo fuera accesible, o prefieres el ingreso manual de datos? ¿Por qué?
+4. ¿Estarías dispuesto a pagar por una herramienta de este tipo? ¿Quién debería asumir ese costo: tú, el fundo o compartido?
+5. ¿Qué te haría desconfiar o no adoptar una solución digital como esta?
+
+
+---
+
+## Segmento 2: Agroindustria mediana y grande
+
+> Perfil objetivo: Gerentes agrícolas, jefes de campo o administradores
+> de empresas agroindustriales, cooperativas o sociedades comerciales que
+> operan o gestionan múltiples fundos o proveedores agrícolas.
+
+---
+
+### Bloque A — Contexto y problema
+
+1. ¿Cuántas hectáreas tienes en producción actualmente y qué cultivos manejas? ¿Tú mismo supervisas el campo o tienes personal encargado?
+2. ¿Cómo sabes si tu campaña fue rentable? ¿Llevas algún registro de costos e ingresos por cultivo?
+3. ¿Qué decisiones del día a día te generan más incertidumbre o te cuestan más trabajo tomar? (riego, fertilización, cosecha, compra de insumos, etc.)
+4. ¿Alguna vez perdiste dinero o producción por algo que podrías haber evitado si hubieras tenido mejor información a tiempo?
+5. ¿Tienes acceso a algún tipo de asesoría técnica o agronómica? ¿Cómo te comunicas con tu asesor o encargado?
+
+### Bloque B — Validación de solución
+
+1. Si pudieras ver en tu celular el estado de tus cultivos, cuánto llevas gastado en la campaña y si vas en camino a ser rentable, ¿lo usarías? ¿Qué tan importante sería eso para ti?
+2. ¿Qué te daría más confianza al usar una app para gestionar tu fundo: la simplicidad, el precio, el soporte, o que otros agricultores ya la usen?
+3. De las siguientes funciones, ¿cuál te parece más valiosa?
+- (a) Alertas automáticas sobre el cultivo
+- (b) Reporte de rentabilidad por campaña
+- (c) Control de gastos e insumos
+- (d) Integración con sensores de humedad o temperatura
+4. ¿Cuánto estarías dispuesto a pagar mensualmente por una herramienta que te ayude a gestionar mejor tu fundo y saber si estás ganando o perdiendo?
+5. Qué tendría que pasar para que dejes de usar esta herramienta después de haberla adoptado?
+
+
 ##### 2.2.2. Registro de entrevistas
+
+
+
 ##### 2.2.3. Análisis de entrevistas
+
+
 ## 2.3. Needfinding
 ##### 2.3.1. User Personas
 ##### 2.3.2. User Task Matrix
