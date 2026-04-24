@@ -723,6 +723,16 @@ Entrevista 02:
   Desde el punto de vista tecnológico, presenta un uso básico de herramientas digitales, utilizando principalmente el teléfono móvil como dispositivo de apoyo. Su estilo de trabajo es operativo y reactivo, dependiendo de condiciones cambiantes en campo.
   Muestra apertura hacia el uso de herramientas digitales que permitan registrar información en tiempo real y generar alertas, lo que sugiere una necesidad de mejorar la capacidad de monitoreo continuo.
 
+Entrevista 03:
+- Nombre: Eraldo
+- Apellidos: Hurtado Aguirre
+- Edad: 62
+- Resumen:
+  El entrevistado se encarga de la gestión de múltiples fundos, lo que implica coordinar actividades, supervisar cultivos y manejar información proveniente de diversas fuentes.
+  Señala que actualmente no cuenta con un sistema que le permita visualizar de manera integrada el estado de los cultivos, lo que incrementa la complejidad en la organización de la información.
+  Indica que los datos se encuentran dispersos en diferentes formatos, dificultando el acceso al historial de cultivos y la toma de decisiones basada en información previa. Asimismo, menciona problemas en la comunicación con propietarios o administradores, debido a la falta de canales estructurados.
+  En términos tecnológicos, utiliza herramientas básicas y presenta un nivel intermedio de adaptación digital. Su forma de trabajo es principalmente organizativa, enfocada en coordinar múltiples unidades productivas.
+  Desde una perspectiva conductual, se observa que valora la claridad y el orden en la información, pero enfrenta limitaciones debido a la falta de herramientas adecuadas. Expresa interés en soluciones que centralicen datos y mejoren la comunicación mediante reportes claros.
 
 
 
