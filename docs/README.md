@@ -819,6 +819,10 @@ Duración estimada: 20–25 minutos por entrevista.
 ## 4.6. Domain-Driven Software Architecture
 ##### 4.6.1. Design-Level Event Storming
 ##### 4.6.2. Software Architecture Context Diagram
+KAMPO es una plataforma digital para la gestión agrícola. Está dirigida a ingenieros agrónomos, que monitorean cultivos y registran datos técnicos, y a agroindustrias, que supervisan campañas, insumos y rendimiento. Además, el sistema se integra con servicios externos para obtener datos climáticos y lecturas de sensores IoT en campo.
+
+![Context Diagram](docs/assets/img/C4/Context-Diagram-KAMPO.png)
+
 ##### 4.6.3. Software Architecture Container Diagrams
 ##### 4.6.4. Software Architecture Components Diagrams
 ## 4.7. Software Object-Oriented Design
