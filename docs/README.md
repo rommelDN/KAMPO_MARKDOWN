@@ -1,159 +1,245 @@
-![Logo UPC](https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png)
+<div align="center">
 
-# Universidad Peruana de Ciencias Aplicadas
+<h3>Universidad Peruana de Ciencias Aplicadas</h3>
 
-**Facultad de Ingeniería**
+<img alt="upc-logo" src="docs/assets/img/Capítulo1/UPC-logo.png" width="100"/><br>
 
-**Carrera de Ingeniería de Software**
+<strong>Ingeniería de Software - 2026-01</strong><br>
+<strong>1ASI0729 - Desarrollo de Aplicaciones Open Source</strong><br>
+<strong>NRC: 11881</strong><br>
+<strong>Profesor: Efraín Ricardo Bautista Ubillús</strong><br>
 
-**Ciclo:** 2026-01 | **Sección:**
+<br><strong>Informe del Trabajo Final</strong><br><br>
 
-**Código del curso:** 1ASI0729
+<strong>Startup: GreenSpot </strong><br>
+<strong>Producto: KAMPO</strong><br>
 
-**Nombre del curso:** Desarrollo de Aplicaciones Open Source
 
-**NRC:** 11881
 
-**Profesor:** Ing. Bautista Ubillús Efraín Ricardo
 
-## Informe de Trabajo Final
+### Team Members:
 
-**Startup:** GreenSpot
+   Hurtado Balcazar Rommel Daniel     u202517474 
 
-**Producto:** KAMPO
+ Ramos Fuentes Rivera Adriana Nicole  u202018427 
 
-### Relación de Integrantes
+ Tuesta Girón Kiara Lucia        u20251I477 
 
-U202517474 | Hurtado Balcazar, Rommel Daniel.
-U202018427 | Ramos Fuentes Rivera, Adriana Nicole.
-U20251I477 | Tuesta Girón, Kiara Lucia.
-U202311469 | Arroyo Gonzales, Emily Juliette.
-U202314898 | Acuache Lucas, Mathias Joaquin.
+ Arroyo Gonzales Emily Juliette     u202311469 
 
-**Marzo, 2026**
+ Acuache Lucas Mathias Joaquin     u202314898 
 
-### Registro de Versiones del Informe
 
----
+<strong>26 de Abril de 2026</strong><br>
+</div>
 
-|Versión| Fecha        |Autor|Descripción de Modificación|
-|---|--------------|---|---|
-|1.0.0| 12 Abr. 2026 |Rommel H.| Creación del documento Markdown|
 
-### Project Report Collaboration Insights
+<div style="page-break-after: always;"></div>
 
----
+# Registro de Versiones del Informe
 
-# Tabla de Contenidos
+**TB1**
 
+| Versión | Fecha      | Autor               | Descripción de modificación                                                                     |
+|---------|------------|---------------------|-------------------------------------------------------------------------------------------------|
+
+
+**TP**
+
+| Versión | Fecha       | Autor               | Descripción de modificación                                       |
+|---------|-------------|---------------------|-------------------------------------------------------------------|
+
+
+**TB2**
+
+| Versión | Fecha      | Autor               | Descripción de modificación                                                                |
+|---------|------------|---------------------|--------------------------------------------------------------------------------------------|
+
+
+**TF**
+
+| Versión | Fecha      | Autor               | Descripción de modificación                                                                                                           |
+|---------|------------|---------------------|---------------------------------------------------------------------------------------------------------------------------------------|
+
+
+
+
+
+<div style="page-break-after: always;"></div>
+
+# Project Report Collaboration Insights
+
+**TB1**
+
+**TP**
+
+
+
+**TB2**
+
+
+**TF**
+
+
+
+
+**TB1**
+
+
+
+**TP1**
+
+
+
+
+**TB2**
+
+
+
+
+**TF**
+
+<div style="page-break-after: always;"></div>
+
+
+# Contenido
 
 - [Student Outcome](#student-outcome)
+- [Capítulo I: Introducción](#capítulo-i-introducción)
+    - [1.1. Startup Profile](#11-startup-profile)
+        - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+        - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+        - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
+        - [1.2.2. Lean UX Process](#122-lean-ux-process)
+            - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
+            - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+            - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+            - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
+    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+- [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
+    - [2.1. Competidores](#21-competidores)
+        - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+        - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+        - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+        - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+        - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.3. Needfinding](#23-needfinding)
+        - [2.3.1. User Personas](#231-user-personas)
+        - [2.3.2. User Task Matrix](#232-user-task-matrix)
+        - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+        - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+    - [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
+    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+- [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
+    - [3.1. User Stories](#31-user-stories)
+    - [3.2. Impact Mapping](#32-impact-mapping)
+    - [3.3. Product Backlog](#33-product-backlog)
+- [Capítulo IV: Product Design](#capítulo-iv-product-design)
+    - [4.1. Style Guidelines](#41-style-guidelines)
+        - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+        - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+    - [4.2. Information Architecture](#42-information-architecture)
+        - [4.2.1. Organization Systems](#421-organization-systems)
+        - [4.2.2. Labeling Systems](#422-labeling-systems)
+        - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+        - [4.2.4. Searching Systems](#424-searching-systems)
+        - [4.2.5. Navigation Systems](#425-navigation-systems)
+    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+        - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+        - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+        - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+        - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+        - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
+        - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
+    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+        - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
+        - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+        - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+        - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
+    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+        - [4.7.1. Class Diagrams](#471-class-diagrams)
+    - [4.8. Database Design](#48-database-design)
+        - [4.8.1. Database Diagrams](#481-database-diagrams)
+- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
+    - [5.1. Software Configuration Management](#51-software-configuration-management)
+        - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+        - [5.1.2. Source Code Management](#512-source-code-management)
+        - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+        - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+    - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
+        - [5.2.1. Sprint 1](#521-sprint-1)
+            - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+            - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+            - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
+            - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+            - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+            - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
+            - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+            - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+        - [5.2.2. Sprint 2](#522-sprint-2)
+            - [5.2.2.1. Sprint Planning 2.](#5221-sprint-planning-2)
+            - [5.2.2.2. Aspect Leaders and Collaborators.](#5222-aspect-leaders-and-collaborators)
+            - [5.2.2.3. Sprint Backlog 2.](#5223-sprint-backlog-2)
+            - [5.2.2.4. Development Evidence for Sprint Review.](#5224-development-evidence-for-sprint-review)
+            - [5.2.2.5. Execution Evidence for Sprint Review.](#5225-execution-evidence-for-sprint-review)
+            - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+            - [5.2.2.7. Software Deployment Evidence for Sprint Review.](#5227-software-deployment-evidence-for-sprint-review)
+            - [5.2.2.8. Team Collaboration Insights during Sprint.](#5228-team-collaboration-insights-during-sprint)
+        - [5.2.3. Sprint 3](#523-sprint-3)
+            - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+            - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+            - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+            - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+            - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+            - [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
+            - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+            - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+        - [5.2.4. Sprint 4](#524-sprint-4)
+            - [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+            - [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+            - [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+            - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+            - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+            - [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+            - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+            - [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+        - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
+        - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
+        - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+- [5.4. Video About the Product](#54-video-about-the-product)
 
-## [Capítulo I: Introducción](#capítulo-i-introducción)
-- [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-- [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2. Lean UX Process](#122-lean-ux-process)
-        - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
-        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
-        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
-- [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-
-## [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
-- [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-- [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-- [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-- [2.4. Big Picture Event Storming](#24-big-picture-event-storming)
-- [2.5. Ubiquitous Language](#25-ubiquitous-language)
-
-## [Capítulo III: Requirements Specification](#capítulo-iii-requirements-specification)
-- [3.1. User Stories](#31-user-stories)
-- [3.2. Impact Mapping](#32-impact-mapping)
-- [3.3. Product Backlog](#33-product-backlog)
-
-## [Capítulo IV: Product Design](#capítulo-iv-product-design)
-- [4.1. Style Guidelines](#41-style-guidelines)
-    - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-    - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
-- [4.2. Information Architecture](#42-information-architecture)
-    - [4.2.1. Organization Systems](#421-organization-systems)
-    - [4.2.2. Labeling Systems](#422-labeling-systems)
-    - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-    - [4.2.4. Searching Systems](#424-searching-systems)
-    - [4.2.5. Navigation Systems](#425-navigation-systems)
-- [4.3. Landing Page UI Design](#43-landing-page-ui-design)
-    - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
-    - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
-- [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
-    - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
-    - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
-    - [4.4.3. Web Applications Mock-ups](#443-web-applications-mock-ups)
-    - [4.4.4. Web Applications User Flow Diagrams](#444-web-applications-user-flow-diagrams)
-- [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
-- [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-    - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
-    - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
-    - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
-    - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
-- [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
-    - [4.7.1. Class Diagrams](#471-class-diagrams)
-- [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagrams](#481-database-diagrams)
-
-## [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-- [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-- [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.X. Sprint n](#52x-sprint-n)
-        - [5.2.X.1. Sprint Planning n](#52x1-sprint-planning-n)
-        - [5.2.X.2. Aspect Leaders and Collaborators](#52x2-aspect-leaders-and-collaborators)
-        - [5.2.X.3. Sprint Backlog n](#52x3-sprint-backlog-n)
-        - [5.2.X.4. Development Evidence for Sprint Review](#52x4-development-evidence-for-sprint-review)
-        - [5.2.X.5. Execution Evidence for Sprint Review](#52x5-execution-evidence-for-sprint-review)
-        - [5.2.X.6. Services Documentation Evidence for Sprint Review](#52x6-services-documentation-evidence-for-sprint-review)
-        - [5.2.X.7. Software Deployment Evidence for Sprint Review](#52x7-software-deployment-evidence-for-sprint-review)
-        - [5.2.X.8. Team Collaboration Insights during Sprint](#52x8-team-collaboration-insights-during-sprint)
-- [5.3. Validation Interviews](#53-validation-interviews)
-    - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
-    - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
-    - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-- [5.4. Video About-the-Product](#54-video-about-the-product)
-
-## [Conclusiones](#conclusiones)
-- [Conclusiones y recomendaciones](#conclusiones-y-recomendaciones)
-- [Video About-the-Team](#video-about-the-team)
-
-## [Bibliografía](#bibliografía)
-
-## [Anexos](#anexos)
+- [Conclusiones](#conclusiones)
+- [Bibliografía](#bibliografía)
+- [Anexos](#anexos)
 
 ---
-### Student Outcome
+
+<div style="page-break-after: always;"></div>
+
+# Student Outcome
+
 ---
 
-**Criterio:** Capacidad de comunicarse efectivamente con un rango de audiencias.
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 3.
+El curso contribuye al cumplimiento del Student Outcome ABET:
 
-|Criterio Específico|Acciones Realizadas|Conclusiones|
-|---|---|---|
-|**Comunica oralmente con efectividad a diferentes rangos de audiencia.**|---|---|
-|**Comunica por escrito con efectividad a diferentes rangos de audiencia**|---|---|
+**ABET – EAC - Student Outcome 3**
+**Criterio:** *Capacidad de comunicarse efectivamente con un rango de audiencias.*
 
+En el siguiente cuadro se describe las acciones realizadas y enunciados de
+conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro
+del ABET – EAC - Student Outcome 3.
+
+| **Criterio específico**                                                    | **Acciones realizadas (reformuladas)**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            | **Conclusiones**                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
+| -------------------------------------------------------------------------- |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Comunica oralmente con efectividad a diferentes rangos de audiencia.**   | | |
+| **Comunica por escrito con efectividad a diferentes rangos de audiencia.** |   | |
+
+<div style="page-break-after: always;"></div>
 ---
 
 ### Capítulo I: Introducción
@@ -166,7 +252,13 @@ La mayoría de agricultores peruanos aún gestionan sus cultivos y finanzas de f
 
 ##### 1.1.2. Perfiles de integrantes del equipo
 
-<!-- Remplaza con tu foto: ![Foto](ruta/a/tu/foto.jpg) -->
+|                                  Miembro                                  |                                                                                                                                                                                                                                                                                                                                                                                                               Descripción                                                                                                                                                                                                                                                                                                                                                                                                               |
+|:-------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+|       <img src="docs/assets/img/Capítulo1/members/ " width="3000"/>       |                                                                                                                                                                                                                                                                                                                                                                                        **Hurtado Balcazar Rommel Daniel  \- U202517474** <br>  -                                                                                                                                                                                                                                                                                                                                                                                        |
+| <img src="docs/assets/img/Capítulo1/members/Adriana.jpg " width="3000"/>  | **Ramos Fuentes Rivera Adriana Nicole \- U202018427** <br> Soy Adriana Nicole Ramos Fuentes Rivera, estudio la carrera de Ingeniería de Software en la UPC, actualmente estoy en el 5to ciclo. Me gusta aprender nuevas tecnologias y conocimientos complementarios que me permitan desarrollar soluciones a problematicas dentro de un contexto real. Cuento con experiencia en lenguajes de programación como C++ y Python, además de conocimientos en base de datos no relacional como MongoDB. Dentro del equipo, me enfoco en el desarrollo de frontend y backend, aplicando principios de Domain Driven Design para mantener una lógica de negocio clara y el modelo de arquitectura C4, para documentar la arquitectura de sistemas de software de una manera clara y jerárquica. Me considero una persona organizada y empática |
+|       <img src="docs/assets/img/Capítulo1/members/ " width="3000"/>       |                                                                                                                                                                                                                                                                                                                                                                                            **Tuesta Girón Kiara Lucia \- U20251I477** <br> -                                                                                                                                                                                                                                                                                                                                                                                            | 
+|  <img src="docs/assets/img/Capítulo1/members/Emily.png " width="3000"/>   |                                                                                                                                                                                                                                                                          **Arroyo Gonzales Emily Juliette \- U202311469**   <br>  Soy estudiante de la carrera de Ingeniería de Software, tengo 20 años, tengo experiencia en lenguajes como C++, MongoDB, en trabajos grupales me gusta aportar ideas que contribuyan a mi grupo y avanzar según lo asignado.                                                                                                                                                                                                                                                                          | 
+| <img src="docs/assets/img/Capítulo1/members/Mathias.jpeg " width="3000"/> |                                                                                                                                                                                                                   **Acuache Lucas Mathias Joaquin \- U202314898**  <br> Soy Mathias Joaquin Acuache Lucas, me encuentro en el sexto ciclo de la carrera de ingeniería de software, mi código de alumno es u202314898. Tengo experiencia en C++, SQL, MongoDB, además de utilizar GitHub de manera correcta. Me considero una persona que trata de apoyar en los diversos trabajos en equipo e investigo cosas nuevas.                                                                                                                                                                                                                   | 
 
 #### 1.2. Solution Profile
 ##### 1.2.1. Antecedentes y problemática
@@ -384,24 +476,24 @@ El análisis competitivo implica examinar detenidamente a nuestros competidores 
         KAMPO
         <br>
         <div style="text-align: center; margin-top: 10px;">
-                <img src="assets/img/logo_kampo.png" alt="Logo de KAMPO" style="width: 100;"></img>
+                <img src="assets/img/Logos-%20Competidores/logo_kampo.png" alt="Logo de KAMPO" style="width: 100;"></img>
         </div>
     <td colspan="1" valign="top" style="font-weight: bold;">
     Agrisoft
     <div style="text-align: center;">
-                <img src="assets/img/logo_agrisoft2.png" alt="Logo de Agrisoft" style="width: 80;"></img>
+                <img src="assets/img/Logos-%20Competidores/logo_agrisoft2.png" alt="Logo de Agrisoft" style="width: 80;"></img>
         </div>
     </td>
     <td colspan="1" valign="top" style="font-weight: bold;">
       Agricolum
       <div style="text-align: center; margin-top: 20px;">
-                <img src="assets/img/logo_agricolum.png" alt="Logo de Agricolum" style="width: 80;"></img>
+                <img src="assets/img/Logos-%20Competidores/logo_agricolum.png" alt="Logo de Agricolum" style="width: 80;"></img>
             </div>
       </td>
     <td colspan="1" valign="top" style="font-weight: bold;" >
       Prismab
       <div style="text-align: center; margin-top: 10px;">
-                <img src="assets/img/logo_prismab.png" alt="Logo de Prismab.png" style="width: 180;"></img>
+                <img src="assets/img/Logos-%20Competidores/logo_prismab.png" alt="Logo de Prismab.png" style="width: 180;"></img>
             </div>
     </td>
   </tr>
