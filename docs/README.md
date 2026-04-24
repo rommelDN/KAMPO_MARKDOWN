@@ -706,10 +706,24 @@ Entrevista 01:
 - Distrito: Lima
 - Resumen:
   El entrevistado se desempeña como asesor técnico independiente, brindando recomendaciones agronómicas a múltiples fundos de manera simultánea. Su trabajo implica visitas periódicas a campo, evaluación del estado de los cultivos y comunicación constante con los propietarios.
-En cuanto a herramientas, utiliza principalmente Excel para el registro de información y WhatsApp como canal principal de comunicación. Esto evidencia una dependencia de herramientas no especializadas, lo que genera dispersión de datos y dificulta la organización de la información.
-Su dinámica de trabajo se basa en la experiencia y en la observación directa, lo que implica que muchas decisiones se toman sin contar con información centralizada o histórica accesible. Además, la elaboración de reportes se realiza de manera manual, lo que incrementa su carga operativa.
-A nivel tecnológico, presenta un manejo intermedio de herramientas digitales, utilizando principalmente su teléfono móvil como dispositivo principal. En términos de comportamiento, se muestra orientado a la eficiencia, pero limitado por procesos manuales.
-Manifiesta interés en una solución que le permita centralizar la información, automatizar reportes y mejorar la comunicación con sus clientes, lo que evidencia una clara necesidad de optimización en su flujo de trabajo.
+  En cuanto a herramientas, utiliza principalmente Excel para el registro de información y WhatsApp como canal principal de comunicación. Esto evidencia una dependencia de herramientas no especializadas, lo que genera dispersión de datos y dificulta la organización de la información.
+  Su dinámica de trabajo se basa en la experiencia y en la observación directa, lo que implica que muchas decisiones se toman sin contar con información centralizada o histórica accesible. Además, la elaboración de reportes se realiza de manera manual, lo que incrementa su carga operativa.
+  A nivel tecnológico, presenta un manejo intermedio de herramientas digitales, utilizando principalmente su teléfono móvil como dispositivo principal. En términos de comportamiento, se muestra orientado a la eficiencia, pero limitado por procesos manuales.
+  Manifiesta interés en una solución que le permita centralizar la información, automatizar reportes y mejorar la comunicación con sus clientes, lo que evidencia una clara necesidad de optimización en su flujo de trabajo.
+
+Entrevista 02:
+- Nombre: Nills
+- Apellido: Bocanegra
+- Edad: 52
+- Distrito: Chiclayo
+- Resumen:
+  El entrevistado realiza labores de supervisión directa en campo, encargándose del seguimiento del estado de los cultivos y de la ejecución de actividades agrícolas.
+  Su proceso de trabajo combina registros manuales, como libretas de campo, con herramientas digitales básicas. Esta combinación evidencia una baja integración tecnológica, lo que limita la disponibilidad de información en tiempo real.
+  Indica que la información se registra generalmente después de las visitas, lo que genera retrasos en el monitoreo y dificulta la toma de decisiones oportunas. Asimismo, resalta que el clima es un factor determinante en su trabajo, influyendo directamente en decisiones relacionadas con riego, insumos y control de enfermedades.
+  Desde el punto de vista tecnológico, presenta un uso básico de herramientas digitales, utilizando principalmente el teléfono móvil como dispositivo de apoyo. Su estilo de trabajo es operativo y reactivo, dependiendo de condiciones cambiantes en campo.
+  Muestra apertura hacia el uso de herramientas digitales que permitan registrar información en tiempo real y generar alertas, lo que sugiere una necesidad de mejorar la capacidad de monitoreo continuo.
+
+
 
 
 ##### 2.2.3. Análisis de entrevistas
