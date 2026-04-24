@@ -759,10 +759,19 @@ Entrevista 05:
   En cuanto a tecnología, presenta un nivel intermedio de adopción digital, utilizando herramientas básicas para la gestión de información. Su estilo de trabajo es coordinativo, basado en la recepción y validación de datos provenientes de terceros.
   Desde una perspectiva conductual, se observa una orientación hacia la optimización de procesos, pero con una actitud cautelosa frente a nuevas tecnologías. Considera que una solución digital sería viable siempre que demuestre beneficios concretos y confiabilidad.
 
-
-
-
 ##### 2.2.3. Análisis de entrevistas
+SEGMENTO 01: Ingenieros agrónomos asesores y supervisores
+
+A partir de las entrevistas realizadas a ingenieros agrónomos, se identificaron patrones consistentes en cuanto a la gestión de información, limitaciones operativas y necesidades tecnológicas.
+En primer lugar, se evidencia una alta dependencia de herramientas no especializadas. El 100 % de los entrevistados utiliza medios como Excel, WhatsApp o registros manuales (libretas de campo) para almacenar y comunicar información. Esta práctica genera una fragmentación de datos, dificultando la consolidación, trazabilidad y acceso oportuno a la información histórica de los cultivos.
+Asimismo, se observa que el monitoreo de los cultivos no se realiza en tiempo real, sino que depende principalmente de visitas periódicas o del registro posterior de la información. El 66 % de los entrevistados señaló que esta limitación afecta directamente su capacidad de reacción ante cambios en las condiciones del cultivo, generando retrasos en la toma de decisiones.
+Un hallazgo relevante es que el 100 % de los entrevistados considera el clima como un factor determinante en la toma de decisiones agrícolas, influyendo en aspectos como riego, aplicación de insumos y control de enfermedades. Sin embargo, se identificó la ausencia de herramientas que integren variables climáticas en tiempo real o que generen alertas tempranas, lo que incrementa la incertidumbre en la gestión.
+Adicionalmente, el 66% de los entrevistados manifestó dificultades en la gestión simultánea de múltiples fundos, lo que incrementa la complejidad operativa. Esta situación se traduce en problemas para organizar la información, acceder a historiales de cultivos y mantener un seguimiento adecuado de cada unidad productiva.
+En cuanto a la comunicación, el 66 % indicó que no existen canales estructurados para compartir información técnica con clientes o equipos de trabajo, lo que genera descoordinación y pérdida de información relevante.
+No obstante, se identificó una alta predisposición hacia la adopción de soluciones tecnológicas. El 100 % de los entrevistados manifestó interés en utilizar una plataforma que permita centralizar la información, automatizar procesos y mejorar el monitoreo de cultivos. Las funcionalidades más valoradas incluyen el registro histórico, alertas climáticas y generación automática de reportes.
+Sin embargo, el 66 % señaló el costo como una barrera significativa, lo que indica que cualquier solución propuesta deberá demostrar claramente su valor en términos de eficiencia y mejora en la toma de decisiones.
+En síntesis, este segmento presenta una problemática centrada en la fragmentación de la información, la falta de monitoreo en tiempo real y la ausencia de herramientas especializadas, lo que limita la eficiencia operativa y la calidad de las decisiones técnicas.
+
 
 
 ## 2.3. Needfinding
