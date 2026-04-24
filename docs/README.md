@@ -700,7 +700,16 @@ Duración estimada: 20–25 minutos por entrevista.
 
 
 ##### 2.2.2. Registro de entrevistas
-
+Entrevista 01:
+- Nombre: Roberto
+- Apellido: Azato
+- Distrito: Lima
+- Resumen:
+  El entrevistado se desempeña como asesor técnico independiente, brindando recomendaciones agronómicas a múltiples fundos de manera simultánea. Su trabajo implica visitas periódicas a campo, evaluación del estado de los cultivos y comunicación constante con los propietarios.
+En cuanto a herramientas, utiliza principalmente Excel para el registro de información y WhatsApp como canal principal de comunicación. Esto evidencia una dependencia de herramientas no especializadas, lo que genera dispersión de datos y dificulta la organización de la información.
+Su dinámica de trabajo se basa en la experiencia y en la observación directa, lo que implica que muchas decisiones se toman sin contar con información centralizada o histórica accesible. Además, la elaboración de reportes se realiza de manera manual, lo que incrementa su carga operativa.
+A nivel tecnológico, presenta un manejo intermedio de herramientas digitales, utilizando principalmente su teléfono móvil como dispositivo principal. En términos de comportamiento, se muestra orientado a la eficiencia, pero limitado por procesos manuales.
+Manifiesta interés en una solución que le permita centralizar la información, automatizar reportes y mejorar la comunicación con sus clientes, lo que evidencia una clara necesidad de optimización en su flujo de trabajo.
 
 
 ##### 2.2.3. Análisis de entrevistas
