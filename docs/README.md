@@ -747,7 +747,17 @@ Entrevista 04:
   A nivel tecnológico, presenta familiaridad con herramientas digitales, aunque no utiliza soluciones especializadas. Su enfoque es más estratégico, orientado a la planificación y gestión de recursos.
   Desde el punto de vista conductual, se caracteriza por priorizar la eficiencia y la precisión en la información. Muestra interés en herramientas que permitan integrar datos en tiempo real y mejorar la toma de decisiones a nivel organizacional.
 
-
+Entrevista 05:
+- Nombre: Fernando
+- Apellidos: Chunque Muñeco
+- Edad: 57
+- Distrito: Chiclayo
+- Resumen:
+  El entrevistado participa en la gestión operativa de actividades agrícolas, dependiendo principalmente de reportes generados por el personal de campo para obtener información sobre los cultivos.
+  Indica que la información suele llegar con retraso, lo que limita su capacidad de reacción ante cambios en las condiciones del cultivo y afecta la eficiencia de las operaciones.
+  Muestra interés en tecnologías como sensores y monitoreo en tiempo real, aunque expresa preocupación por el costo y la confiabilidad de estas soluciones.
+  En cuanto a tecnología, presenta un nivel intermedio de adopción digital, utilizando herramientas básicas para la gestión de información. Su estilo de trabajo es coordinativo, basado en la recepción y validación de datos provenientes de terceros.
+  Desde una perspectiva conductual, se observa una orientación hacia la optimización de procesos, pero con una actitud cautelosa frente a nuevas tecnologías. Considera que una solución digital sería viable siempre que demuestre beneficios concretos y confiabilidad.
 
 
 
